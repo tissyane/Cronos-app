@@ -18,6 +18,12 @@
   bottom: 100px;
 }
 
+.helix {
+  position: absolute;
+  top: 63px;
+  left: -140px;
+}
+
 @media (max-width: 1366px) {
   .icosahedron {
     width: 200px;
@@ -43,9 +49,19 @@
   }
 
   .bigicosahedron {
+    opacity: 0.9;
+    filter: blur(4px);
     width: 150px;
     height: 150px;
     right: -30px;
-    bottom: 250px;
+    bottom: 50px;
+  }
+
+  .helix {
+    opacity: 0.3;
+    width: 450px;
+    height: 450px;
+    top: 63px;
+    left: 0px;
   }
 }
