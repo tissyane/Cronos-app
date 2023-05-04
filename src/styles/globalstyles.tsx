@@ -11,10 +11,10 @@ const GlobalStyle = createGlobalStyle`
   }
 
   main {
-    width: 94%;
+    width: 100%;
     height: 100vh;
     margin: 0 auto;
-    margin-top: 0;
+    padding: 50px 0;
     background-color: ${({ theme }) => theme.colors.background};
   }
 
