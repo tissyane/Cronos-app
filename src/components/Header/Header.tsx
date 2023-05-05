@@ -31,6 +31,7 @@ const Wrapper = styled.div`
 
   @media (max-width: 614px) {
     padding: 0 15px;
+    justify-content: space-evenly;
   }
 `;
 
@@ -41,7 +42,7 @@ const Logo = styled.h4`
   line-height: 34px;
 
   @media (max-width: 614px) {
-    font-size: 20px;
+    font-size: 18px;
   }
 `;
 
@@ -49,10 +50,7 @@ const Button = styled.div`
   display: flex;
   align-items: center;
   gap: 16px;
-
-  @media (max-width: 614px) {
-    gap: 5px;
-  }
+  width: 30%;
 
   h4 {
     font-size: 26.1538px;
@@ -61,6 +59,7 @@ const Button = styled.div`
 
     @media (max-width: 614px) {
       font-size: 18px;
+      line-height: 20px;
     }
   }
 `;

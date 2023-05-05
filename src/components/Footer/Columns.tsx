@@ -15,7 +15,7 @@ export default function FooterColumn({ data }: FooterProps) {
     <ColumnWrapper>
       <FooterColumnTitle>{column}</FooterColumnTitle>
       {items.map(({ title }) => (
-        <FooterItem>{title}</FooterItem>
+        <FooterItem key={title}>{title}</FooterItem>
       ))}
     </ColumnWrapper>
   );

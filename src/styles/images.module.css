@@ -82,8 +82,6 @@
   }
 
   .arrow {
-    position: absolute;
-    right: 15%;
-    bottom: 2%;
+    font-size: 18px;
   }
 }

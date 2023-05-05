@@ -47,7 +47,7 @@ const LeftContainer = styled.div`
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 90%;
+    width: 80%;
     margin-left: 40px;
   }
 `;

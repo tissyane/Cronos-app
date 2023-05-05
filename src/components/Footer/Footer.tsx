@@ -25,6 +25,6 @@ const FooterContainer = styled.div`
   @media (max-width: 614px) {
     margin-top: 50px;
     justify-content: center;
-    gap: 80px;
+    gap: 60px;
   }
 `;
