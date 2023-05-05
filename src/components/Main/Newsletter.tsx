@@ -20,7 +20,7 @@ export default function Newsletter() {
             </Description>
           </div>
         </Left>
-        <InputForm></InputForm>
+        <InputForm placeholder="Your email"></InputForm>
       </Container>
     </>
   );
@@ -66,8 +66,20 @@ const InputForm = styled.input`
   gap: 236px;
   background: rgba(255, 255, 255, 0.08);
 
+  &::placeholder {
+    font-size: 27px;
+    line-height: 35px;
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 0.21);
+
+    @media (max-width: 614px) {
+      font-size: 18px;
+    }
+  }
+
   @media (max-width: 614px) {
     width: 80%;
     height: 50px;
+    padding: 10px;
   }
 `;
