@@ -99,6 +99,11 @@ const Bottom = styled.div`
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
+    cursor: pointer;
+
+    &:hover {
+      filter: brightness(60%);
+    }
 
     @media (max-width: 1399px) and (min-width: 614px) {
       margin-left: 40px;
@@ -111,8 +116,10 @@ const Bottom = styled.div`
 
     @media (max-width: 614px) {
       font-size: 15px;
-      line-height: 15px;
-      margin-left: 40px;
+      line-height: 22px;
+      margin-left: 0px;
+      padding: 0 30px;
+      gap: 0;
     }
   }
 `;
