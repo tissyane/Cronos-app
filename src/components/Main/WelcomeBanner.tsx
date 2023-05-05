@@ -70,7 +70,7 @@ const MainTitle = styled(GenericMainTitle)`
   text-align: center;
   margin-top: 45px;
 
-  @media (max-width: 1280px) {
+  @media (max-width: 1399px) and (min-width: 614px) {
     font-size: 90px;
     line-height: 100px;
   }
@@ -87,7 +87,7 @@ const Subtitle = styled(GenericSubtitle)`
   margin: 17px 39px;
   padding: 0 300px;
 
-  @media (max-width: 1366px) {
+  @media (max-width: 1399px) and (min-width: 614px) {
     margin: 0;
     padding: 0 10px;
   }

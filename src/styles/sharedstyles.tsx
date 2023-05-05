@@ -29,4 +29,26 @@ const GenericSubtitle = styled.h5`
   color: ${({ theme }) => theme.colors.white};
 `;
 
-export { Title, GenericMainTitle, GenericSubtitle };
+const Button = styled.button`
+  padding: 30px 114px;
+  gap: 10px;
+  width: 281px;
+  height: 86px;
+  background: linear-gradient(
+    95.46deg,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0.51) 101.07%
+  );
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #06070a;
+
+  @media (max-width: 614px) {
+    width: 150px;
+    height: 76px;
+    padding: 0;
+  }
+`;
+
+export { Title, GenericMainTitle, GenericSubtitle, Button };
