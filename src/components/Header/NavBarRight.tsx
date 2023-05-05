@@ -22,5 +22,18 @@ const Menu = styled.div`
     font-weight: 500;
     font-size: 20px;
     line-height: 26px;
+
+    @media (max-width: 614px) {
+      font-size: 15px;
+    }
+  }
+
+  @media (max-width: 1399px) and (min-width: 614px) {
+    gap: 50px;
+  }
+
+  @media (max-width: 614px) {
+    margin-left: 15px;
+    gap: 10px;
   }
 `;
