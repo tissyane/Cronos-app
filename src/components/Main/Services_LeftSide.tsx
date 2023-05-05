@@ -21,7 +21,9 @@ export default function LeftSide() {
         assets and data across sovereign.
       </Subtitle>
       <Bottom>
-        <Button>Learn</Button>
+        <Button>
+          <p>Learn</p>
+        </Button>
         <div>
           <h3>Explore Tokens</h3>
           <SlArrowRight color="white" fontSize="18px" />

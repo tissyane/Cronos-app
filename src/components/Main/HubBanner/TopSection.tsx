@@ -44,6 +44,8 @@ const TopWrapper = styled.div`
 
   @media (max-width: 614px) {
     width: 80%;
+    margin-bottom: 700px;
+    text-align: center;
   }
 `;
 
