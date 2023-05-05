@@ -39,14 +39,17 @@ const Button = styled.button`
     #ffffff 0%,
     rgba(255, 255, 255, 0.51) 101.07%
   );
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 26px;
-  color: #06070a;
+
+  p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #06070a;
+  }
 
   @media (max-width: 614px) {
     width: 150px;
-    height: 76px;
+    height: 56px;
     padding: 0;
   }
 `;
