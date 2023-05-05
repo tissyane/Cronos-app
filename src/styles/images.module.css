@@ -80,4 +80,10 @@
     position: absolute;
     top: 90px;
   }
+
+  .arrow {
+    position: absolute;
+    right: 15%;
+    bottom: 2%;
+  }
 }

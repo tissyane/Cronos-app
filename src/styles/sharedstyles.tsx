@@ -51,4 +51,61 @@ const Button = styled.button`
   }
 `;
 
-export { Title, GenericMainTitle, GenericSubtitle, Button };
+const LowerTitle = styled.h4`
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 65px;
+  letter-spacing: 0.01em;
+
+  @media (max-width: 614px) {
+    font-size: 30px;
+    line-height: 35px;
+  }
+`;
+
+const Description = styled.p`
+  font-size: 27px;
+  line-height: 35px;
+  letter-spacing: 0.01em;
+
+  @media (max-width: 614px) {
+    font-size: 20px;
+    line-height: 35px;
+    margin-top: 20px;
+  }
+`;
+
+const FooterColumnTitle = styled.h5`
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 46px;
+  letter-spacing: 0.01em;
+
+  @media (max-width: 614px) {
+    font-size: 20px;
+    line-height: 46px;
+  }
+`;
+
+const FooterItem = styled.p`
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 0.45);
+
+  @media (max-width: 614px) {
+    font-size: 15px;
+    line-height: 46px;
+  }
+`;
+
+export {
+  Title,
+  GenericMainTitle,
+  GenericSubtitle,
+  Button,
+  LowerTitle,
+  Description,
+  FooterColumnTitle,
+  FooterItem,
+};
