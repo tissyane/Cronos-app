@@ -65,6 +65,8 @@ const InputForm = styled.input`
   padding: 28px 184px 28px 32px;
   gap: 236px;
   background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  font-size: 27px;
 
   &::placeholder {
     font-size: 27px;
@@ -81,5 +83,6 @@ const InputForm = styled.input`
     width: 80%;
     height: 50px;
     padding: 10px;
+    font-size: 18px;
   }
 `;

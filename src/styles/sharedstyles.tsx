@@ -39,6 +39,12 @@ const Button = styled.button`
     #ffffff 0%,
     rgba(255, 255, 255, 0.51) 101.07%
   );
+  cursor: pointer;
+
+  &:hover {
+    transform: translateX(2px);
+    filter: brightness(90%);
+  }
 
   p {
     font-weight: 500;
@@ -95,6 +101,11 @@ const FooterItem = styled.p`
   line-height: 36px;
   letter-spacing: 0.01em;
   color: rgba(255, 255, 255, 0.45);
+  cursor: pointer;
+
+  &:hover {
+    filter: brightness(30%);
+  }
 
   @media (max-width: 614px) {
     font-size: 15px;

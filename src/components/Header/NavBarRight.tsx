@@ -22,6 +22,10 @@ const Menu = styled.div`
     font-weight: 500;
     font-size: 20px;
     line-height: 26px;
+    cursor: pointer;
+    &:hover {
+      filter: brightness(60%);
+    }
 
     @media (max-width: 614px) {
       font-size: 12px;

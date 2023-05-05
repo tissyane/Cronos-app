@@ -31,6 +31,10 @@
   top: 0;
 }
 
+.arrow {
+  cursor: pointer;
+}
+
 @media (max-width: 1366px) {
   .icosahedron {
     width: 200px;

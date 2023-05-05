@@ -40,6 +40,10 @@ const Logo = styled.h4`
   font-size: 26.1538px;
   font-weight: 500;
   line-height: 34px;
+  cursor: pointer;
+  &:hover {
+    filter: brightness(60%);
+  }
 
   @media (max-width: 614px) {
     font-size: 18px;
@@ -50,6 +54,11 @@ const Button = styled.div`
   display: flex;
   align-items: center;
   gap: 2px;
+  cursor: pointer;
+  &:hover {
+    filter: brightness(60%);
+  }
+
   h4 {
     font-size: 26.1538px;
     font-weight: 500;
