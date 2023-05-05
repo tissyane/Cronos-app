@@ -40,6 +40,7 @@ const TopWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 900px;
 
   @media (max-width: 614px) {
     width: 100%;
