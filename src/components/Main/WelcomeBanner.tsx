@@ -42,7 +42,7 @@ export default function WelcomeBanner() {
 }
 
 const BannerWrapper = styled.div`
-  height: 100%;
+  min-height: 808px;
   width: 100%;
   margin-top: 173px;
   padding-top: 31px;
@@ -51,6 +51,8 @@ const BannerWrapper = styled.div`
 
   @media (max-width: 614px) {
     margin-top: 90px;
+    min-height: 450px;
+    padding-top: 0;
   }
 `;
 
@@ -68,7 +70,7 @@ const MainTitle = styled(GenericMainTitle)`
   text-align: center;
   margin-top: 45px;
 
-  @media (max-width: 1280px) {
+  @media (max-width: 1399px) and (min-width: 614px) {
     font-size: 90px;
     line-height: 100px;
   }
@@ -85,13 +87,13 @@ const Subtitle = styled(GenericSubtitle)`
   margin: 17px 39px;
   padding: 0 300px;
 
-  @media (max-width: 1366px) {
+  @media (max-width: 1399px) and (min-width: 614px) {
     margin: 0;
     padding: 0 10px;
   }
 
   @media (max-width: 614px) {
-    font-size: 15px;
+    font-size: 20px;
     line-height: 30px;
     margin: 0;
     padding: 0 10px;
