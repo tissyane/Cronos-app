@@ -10,12 +10,14 @@ export default function Newsletter() {
         <Left>
           <LowerTitle>Receive transmissions</LowerTitle>
           <div>
-            <Description>Unsubscribe at any time. Privacy policy</Description>
-            <FiArrowUpRight
-              className={styles.arrow}
-              color="white"
-              fontSize="25px"
-            />
+            <Description>
+              Unsubscribe at any time. Privacy policy{" "}
+              <FiArrowUpRight
+                className={styles.arrow}
+                color="white"
+                fontSize="25px"
+              />
+            </Description>
           </div>
         </Left>
         <InputForm></InputForm>
@@ -53,7 +55,6 @@ const Left = styled.div`
 
   @media (max-width: 614px) {
     width: 70%;
-    position: relative;
   }
 `;
 

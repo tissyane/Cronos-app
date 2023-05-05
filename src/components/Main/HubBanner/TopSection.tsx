@@ -43,7 +43,7 @@ const TopWrapper = styled.div`
   margin-bottom: 900px;
 
   @media (max-width: 614px) {
-    width: 100%;
+    width: 80%;
   }
 `;
 

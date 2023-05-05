@@ -24,7 +24,7 @@ const Menu = styled.div`
     line-height: 26px;
 
     @media (max-width: 614px) {
-      font-size: 15px;
+      font-size: 12px;
     }
   }
 
@@ -33,7 +33,7 @@ const Menu = styled.div`
   }
 
   @media (max-width: 614px) {
-    margin-left: 15px;
+    margin: 0 10px;
     gap: 10px;
   }
 `;

@@ -43,7 +43,7 @@ const BannerWrapper = styled.div`
   }
 
   @media (max-width: 614px) {
-    margin: 20px;
+    margin: 60px 0;
   }
 `;
 
@@ -58,6 +58,7 @@ const RightContainer = styled.div`
   @media (max-width: 614px) {
     position: inherit;
     margin-top: 650px;
+    width: 80%;
   }
 
   div {
@@ -67,7 +68,7 @@ const RightContainer = styled.div`
     align-items: end;
 
     @media (max-width: 614px) {
-      margin-top: 40px;
+      margin-top: 80px;
       text-align: center;
     }
   }
@@ -84,7 +85,7 @@ const Number = styled(GenericMainTitle)`
   }
 
   @media (max-width: 614px) {
-    font-size: 100px;
+    font-size: 80px;
     line-height: 110px;
   }
 `;
