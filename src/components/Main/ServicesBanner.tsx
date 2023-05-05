@@ -33,11 +33,10 @@ export default function ServicesBanner() {
 
 const BannerWrapper = styled.div`
   position: relative;
-  min-height: 1100px;
+  min-height: 1050px;
   margin: 186px 193px 0 0;
   position: relative;
   overflow-x: hidden;
-
   @media (max-width: 1399px) and (min-width: 614px) {
     min-height: 1400px;
     margin: 90px 20px 0 0;
@@ -45,13 +44,11 @@ const BannerWrapper = styled.div`
 
   @media (max-width: 614px) {
     margin: 20px;
-    min-height: 1400px;
   }
 `;
 
 const RightContainer = styled.div`
   width: 376px;
-  height: 596px;
   position: absolute;
   right: 0;
   display: flex;
